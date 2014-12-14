@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row" ng-controller="testCtrl">
+		<h1>Hi I'm the Main Page</h1>
+		<div class="col-md-4">
+			<h4>Hey Every one can access me!</h4>
+			<a href="#/commonpage" class="btn btn-block">Common Page</a>
+		</div>
+		<div class="col-md-4">
+			<h4>Only people with access can see me!</h4>
+			<button class="btn btn-danger btn-block" ng-click="getAccess()">Click Me to get Access!</button>
+			<a href="#/secretpage" class="btn btn-block">Secret Page</a>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+</div>
